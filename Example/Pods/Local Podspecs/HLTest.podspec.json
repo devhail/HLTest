@@ -1,6 +1,6 @@
 {
   "name": "HLTest",
-  "version": "0.1.2",
+  "version": "0.1.0",
   "summary": "xxx",
   "description": "xxxxxxx",
   "homepage": "https://github.com/devhail/HLSpecs",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/devhail/HLSpecs.git",
-    "tag": "0.1.2"
+    "tag": "0.1.0"
   },
   "platforms": {
     "ios": "9.0"
