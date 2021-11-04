@@ -1,0 +1,32 @@
+{
+  "name": "HLTest",
+  "version": "0.1.2",
+  "summary": "xxx",
+  "description": "xxxxxxx",
+  "homepage": "https://github.com/devhail/HLSpecs",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "hl": "517314473@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/devhail/HLSpecs.git",
+    "tag": "0.1.2"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "HLTest/Classes/**/*",
+  "resource_bundles": {
+    "HLTest": [
+      "HLTest/Assets/*.{jpg,png,gif}"
+    ]
+  },
+  "dependencies": {
+    "Masonry": [
+
+    ]
+  }
+}

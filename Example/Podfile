@@ -1,0 +1,17 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'HLTest_Example' do
+  pod 'HLTest', :path => '../'
+
+  target 'HLTest_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+    pod 'Expecta'
+    pod 'FBSnapshotTestCase'
+    pod 'Expecta+Snapshots'
+    pod 'Masonry'
+  end
+end

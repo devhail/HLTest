@@ -1,0 +1,47 @@
+PODS:
+  - Expecta (1.0.6)
+  - "Expecta+Snapshots (3.1.1)":
+    - Expecta (~> 1.0)
+    - FBSnapshotTestCase/Core (~> 2.0)
+    - Specta (~> 1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - HLTest (0.1.2):
+    - Masonry
+  - Masonry (1.1.0)
+  - Specta (1.0.7)
+
+DEPENDENCIES:
+  - Expecta
+  - "Expecta+Snapshots"
+  - FBSnapshotTestCase
+  - HLTest (from `../`)
+  - Masonry
+  - Specta
+
+SPEC REPOS:
+  trunk:
+    - Expecta
+    - "Expecta+Snapshots"
+    - FBSnapshotTestCase
+    - Masonry
+    - Specta
+
+EXTERNAL SOURCES:
+  HLTest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
+  "Expecta+Snapshots": dcff217eef506dabd6dfdc7864ea2da321fafbb8
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  HLTest: 1331532d80d0fb5cbf113a26f793b028ba4f4169
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
+
+PODFILE CHECKSUM: b81d24514a1345298491daeada28f58077f4c12d
+
+COCOAPODS: 1.9.3
