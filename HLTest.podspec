@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 xxxxxxx
                        DESC
 
-  s.homepage         = 'https://github.com/devhail/HLSpecs'
+  s.homepage         = 'https://github.com/devhail'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'hl' => '517314473@qq.com' }
-  s.source           = { :git => 'https://github.com/devhail/HLSpecs.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/devhail/HLTest.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
